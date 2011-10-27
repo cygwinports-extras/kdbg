@@ -1,0 +1,5 @@
+inherit kde4
+
+
+HOMEPAGE="http://www.kdbg.org/"
+SRC_URI="mirror://sourceforge/kdbg/${P}.tar.gz"

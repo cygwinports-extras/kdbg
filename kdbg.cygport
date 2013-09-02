@@ -1,14 +1,14 @@
 inherit kde4
 
 NAME="kdbg"
-VERSION=2.5.2
+VERSION=2.5.3
 RELEASE=1
-CATEGORY="Devel KDE"
+CATEGORY="Devel"
 SUMMARY="KDE interface for GDB"
 DESCRIPTION="KDbg is a graphical user interface to gdb, the GNU debugger. It
 provides an intuitive interface for setting breakpoints, inspecting variables,
 and stepping through code."
 HOMEPAGE="http://www.kdbg.org/"
-SRC_URI="mirror://sourceforge/kdbg/${P}.tar.gz"
+SRC_URI="mirror://sourceforge/kdbg/kdbg-${VERSION}.tar.gz"
 
 REQUIRES="gdb"
